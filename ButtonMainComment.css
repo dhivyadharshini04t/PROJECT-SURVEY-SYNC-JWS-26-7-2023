@@ -1,0 +1,40 @@
+/* ButtonMainComment.css */
+.buttonMainerComment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+  background-image: url("https://png.pngtree.com/background/20220727/original/pngtree-abstract-background-technology-style-white-low-poly-connection-with-nodes-picture-image_1837350.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.buttonddd,
+.buttonddd1,
+.buttonddd2,
+.buttonddd3 {
+  background-color: #07eeff;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.3s;
+}
+
+.post-comment-btn:hover {
+  background-color: #ec47de;
+}
+
+.get-comment-btn:hover {
+  background-color: #ec47de;
+}
+
+.update-comment-btn:hover {
+  background-color: #ec47de;
+}
+
+.delete-comment-btn:hover {
+  background-color: #ec47de;
+}

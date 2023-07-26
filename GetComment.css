@@ -1,0 +1,86 @@
+/* GetCommentStyles.css */
+.getch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-image: url('https://cdn.wallpapersafari.com/87/40/Lslm2z.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.getch-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.getch-form {
+  width: 80%;
+  max-width: 500px;
+}
+
+.getch-question-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.getch-question-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.getch-answer-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.getch-submit-button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.getch-submit-button:hover {
+  background-color: #45a049;
+}
+
+.getch-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.getch-go-to-end-link {
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.getch-go-to-end-button {
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.getch-go-to-end-button:hover {
+  background-color: #0056b3;
+}

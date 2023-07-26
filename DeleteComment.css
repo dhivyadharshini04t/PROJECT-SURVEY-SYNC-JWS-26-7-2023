@@ -1,0 +1,60 @@
+/* DeleteRadio.css */
+.delete-tt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://cdn.wallpapersafari.com/87/40/Lslm2z.jpg'); /* Replace 'your-background-image-url.jpg' with the actual URL of your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .delete-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .delete-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .delete-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .deleteButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0faab5; /* Red background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #ec47de; /* Darker red background color on hover */
+  }
+  
+  .delete-error {
+    color: #ff0000; /* Red color for displaying error messages */
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

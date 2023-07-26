@@ -1,0 +1,97 @@
+.feedbackFormContainer {
+  background-color: #f8f8f8;
+  height: max-content;
+  max-width: 500px;
+  margin: 50px auto;
+font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Stef {
+  
+  background-image: url("https://png.pngtree.com/background/20220727/original/pngtree-abstract-background-technology-style-white-low-poly-connection-with-nodes-picture-image_1837350.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.feedbackFormContainer1 {
+  background-color: #f8f8f8;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedbackFormContainer h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formField {
+  margin-bottom: 25px;
+  padding-bottom: 1px;
+}
+
+.formField label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-bottom: 1px;
+}
+
+.formField input,
+.formField select,
+.formField textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+.formField textarea {
+  height: 100px;
+}
+
+.formField input[type='radio'],
+.formField input[type='checkbox'] {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+
+.submitButton {
+  background-color: #5bd1ec;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 12px 20px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #ec47de;
+}
+
+/* Feedback.css */
+.submitButton-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px; /* Add padding at the bottom to create space */
+}

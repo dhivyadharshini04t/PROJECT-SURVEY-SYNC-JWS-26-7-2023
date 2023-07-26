@@ -1,0 +1,77 @@
+.app-container {
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  .app-header {
+    background-color: #336cdd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url('assets/front.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+  }
+  
+  .button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .app-animated-button {
+    margin: 90px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1971d0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: app-pulse 2s infinite;
+  
+  }
+  
+  @keyframes app-pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* FrontPage.css */
+
+
+
+/* Add styles for the heading text */
+.heading-text {
+  position: absolute;
+  top: 10%; /* Adjust the vertical position of the text */
+  left: 50%; /* Adjust the horizontal position of the text */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 36px;
+  color: white; /* Set the color of your heading text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+}

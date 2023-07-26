@@ -1,0 +1,109 @@
+/* Radio.css */
+.container-admin-interface {
+  text-align: center;
+  margin: 20px;
+  background-image: url("https://img.freepik.com/premium-photo/abstract-background-light-blue-shades-with-glare-bokeh-effect_494741-80236.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 600px;
+  padding-bottom: 370px;
+  background-size: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 70px;
+}
+
+.container-admin-interface h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container-admin-interface .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content vertically */
+  margin-bottom: 20px;
+}
+
+.container-admin-interface .content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container-admin-interface .content input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.container-admin-interface .content button {
+  background-color: #0faab5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.container-admin-interface .content button:hover {
+  background-color: #ec47de;
+}
+
+.container-admin-interface .content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.container-admin-interface .content ul li {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.container-admin-interface .content ul li input[type="radio"] {
+  margin-right: 5px;
+}
+
+.container-admin-interface .content ul li label {
+  cursor: pointer;
+}
+
+.container-admin-interface button {
+  background-color: #0faab5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.container-admin-interface button:hover {
+  background-color: #ec47de;
+}
+
+/* Home button style */
+.container-admin-interface a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0faab5;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.container-admin-interface a:hover {
+  background-color: #ec47de;
+}
+

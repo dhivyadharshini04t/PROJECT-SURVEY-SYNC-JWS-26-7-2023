@@ -1,0 +1,137 @@
+/* ShowLikert.css */
+
+/* Center the component on the page */
+.getch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+/* Style the Likert survey table */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style the checkboxes */
+label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+}
+
+label input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Custom checkbox design */
+span.checkbox-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Show custom checkbox when checked */
+label input[type="checkbox"]:checked ~ span.checkbox-custom {
+  background-color: #16a085; /* Color for the checkbox when checked */
+}
+
+/* Style the checkmark inside the checkbox */
+span.checkmark {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 8px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  visibility: hidden; /* Initially hidden */
+}
+
+/* Show the checkmark when the checkbox is checked */
+label input[type="checkbox"]:checked ~ span.checkbox-custom span.checkmark {
+  visibility: visible;
+}
+
+/* Style the checkboxes on hover */
+label input[type="checkbox"]:not(:checked) ~ span.checkbox-custom:hover {
+  background-color: #2c1414;
+}
+
+/* Style the submit button */
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #16a085;
+  color: #cc1616;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #138b6f;
+}
+
+.submit-btn:active {
+  background-color: #0d6047;
+}
+/* Custom checkbox design */
+span.checkbox-custom {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #f3e9e9;
+  border: 1px solid #cf1f1f;
+}
+
+/* Show custom checkbox when checked */
+label input[type="checkbox"]:checked ~ span.checkbox-custom:after {
+  content: "\f00c"; /* Add a checkmark or other icon using Font Awesome or similar icon library */
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  color: #16a085; /* Color for the checkmark */
+}
+
+/* Style the checkboxes */
+label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+}
+
+label input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}

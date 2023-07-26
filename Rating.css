@@ -1,0 +1,135 @@
+/* Rating.css */
+.container-rating-scale {
+  text-align: center;
+  margin: 20px;
+  background-image: url("https://img.freepik.com/premium-photo/abstract-background-light-blue-shades-with-glare-bokeh-effect_494741-80236.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -500px;
+  padding-bottom: 350px;
+  background-size: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.rating-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content-rating {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.question-input,
+.min-value-input,
+.max-value-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 300px; /* Increase the width for better readability */
+}
+
+.min-max-values {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.content-rating label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.content-rating label input {
+  margin-left: 10px;
+}
+
+.add-question-button {
+  background-color: #0faab5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.add-question-button:hover {
+  background-color: rgb(239, 11, 118);
+}
+
+.question-container {
+  margin-bottom: 10px;
+}
+
+.question-container p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.ratings {
+  font-size: 24px;
+}
+
+.rating-star {
+  cursor: pointer;
+}
+
+.filled {
+  color: rgb(239, 11, 118);
+}
+
+.submit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Home button style */
+.container-rating-scale .home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #0faab5;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.container-rating-scale .home-button:hover {
+  background-color: #ec47de;
+}

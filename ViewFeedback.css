@@ -1,0 +1,33 @@
+/* FeedDisPage.css */
+
+.feedback-display-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .feedback-display-container h1 {
+    text-align: center;
+  }
+  
+  .feedback-display-container p {
+    text-align: center;
+  }
+  
+  .feedback-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .feedback-item strong {
+    font-weight: bold;
+  }
+  
+  .feedback-item hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  

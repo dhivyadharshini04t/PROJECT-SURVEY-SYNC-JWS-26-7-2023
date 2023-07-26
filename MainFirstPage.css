@@ -1,0 +1,58 @@
+.frontdd-container {
+    position: relative;
+  }
+  
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .buttonddddd-container {
+    position: absolute;
+    top: 60%;
+    height: 70px;
+    width: 500px;
+    left: 770px;
+    padding-bottom: 10px;
+    transform: translate(-50%, -50%);
+  }
+  .buttonddddd-container .buttonddddd-container {
+    background-color: rgb(24, 24, 25); /* Change the background color to blue */
+    color: white; /* Change the text color to white */
+  }
+  
+  .frontdd-container {
+    position: relative;
+  }
+  
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .introdd-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
+    padding: 20px; /* Add some padding around the text */
+    border-radius: 10px; /* Add rounded corners to the box */
+  }
+  
+  
+  .introdd-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .introdd-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }

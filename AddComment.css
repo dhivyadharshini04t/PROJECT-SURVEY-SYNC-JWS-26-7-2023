@@ -1,0 +1,72 @@
+/* AddComment.css */
+.ram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://cdn.wallpapersafari.com/87/40/Lslm2z.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .feedbackFormContainer1 {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background for better readability */
+  }
+  
+  .formTitle1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formField1 {
+    margin-bottom: 15px;
+  }
+  
+  .input-name1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-name1::placeholder {
+    color: #999;
+  }
+  
+  .submitButton1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton1:hover {
+    background-color: #0056b3;
+  }
+  
+  .linkTo {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .linkTo:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,46 @@
+/* ButtonMain.css */
+.buttonMainer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://png.pngtree.com/background/20220727/original/pngtree-abstract-background-technology-style-white-low-poly-connection-with-nodes-picture-image_1837350.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.buttondd,
+.buttondd1,
+.buttondd2,
+.buttondd3 {
+  background-color: #07eeff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttondd1 {
+  background-color: #07eeff;
+}
+
+.buttondd2 {
+  background-color: #07eeff;
+  color: #212529;
+}
+
+.buttondd3 {
+  background-color:#07eeff;
+}
+
+/* Animated Button Styles */
+.buttondd:hover,
+.buttondd1:hover,
+.buttondd2:hover,
+.buttondd3:hover {
+  background-color:#ec47de;
+}

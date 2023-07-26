@@ -1,0 +1,63 @@
+/* FeedbackFormMicro.css */
+
+/* Styling for the container */
+.feed-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .feed-container h1 {
+    text-align: center;
+  }
+  
+  /* Styling for the form */
+  .feed-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feed-form input,
+  .feed-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .feed-form textarea {
+    resize: vertical;
+  }
+  
+  .feed-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the toast notifications */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #5cb85c;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #d9534f;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 500px) {
+    .feed-container {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,43 @@
+.dashboard {
+    position: relative;
+  }
+  
+  .dashboard-icon {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dashboard-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .dashboard-menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .dashboard-menu h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
